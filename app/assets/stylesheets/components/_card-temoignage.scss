@@ -8,7 +8,7 @@ $darkBackground: #5b5f97;
 
 
 #login-container-sylvie {
-  height: 600px;
+  height: 450px;
   width: 500px;
   padding: 20px;
   border-radius: 5px;
@@ -38,29 +38,10 @@ $darkBackground: #5b5f97;
   .description{
     margin-bottom: 20px;
   }
-  .social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: calc(100% - 40px);
-    margin: 0 auto;
-    a {
-      text-align: center;
-      border: solid 2px $accent;
-      width: 75px;
-      padding: 5px 0;
-      border-radius: 5px;
-      &:hover {
-        background: $accent;
-        color: white;
-        cursor: pointer;
-      }
-    }
-  }
 }
 
 #login-container-franck {
-  height: 400px;
+  height: 450px;
   width: 500px;
   padding: 20px;
   border-radius: 5px;
@@ -89,25 +70,6 @@ $darkBackground: #5b5f97;
   }
   .description{
     margin-bottom: 20px;
-  }
-  .social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: calc(100% - 40px);
-    margin: 0 auto;
-    a {
-      text-align: center;
-      border: solid 2px $accent;
-      width: 75px;
-      padding: 5px 0;
-      border-radius: 5px;
-      &:hover {
-        background: $accent;
-        color: white;
-        cursor: pointer;
-      }
-    }
   }
 }
 
