@@ -1,24 +1,30 @@
 
 .navbar {
   position: fixed;
-  width: 90%;
+
+  width: 100%;
   height: 70px;
   top: 0px;
   background: white;
   border-radius: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 30px;
   border: 3px white solid;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
     a:link {
       text-decoration: none;
-   }
+  }
+    li {
+      list-style: none;
+      display: inline;
+    }
 }
 
 .navbar-brand {
   img {
   width: 150px;
   height: 50px;
+  padding-left: 20px;
   }
 }
 
