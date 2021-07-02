@@ -8,6 +8,28 @@
   margin: 20px auto;
 }
 
+/*Media Queries*/
+
+/*Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+  .page-solution-card {
+    flex-direction: column;
+  }
+  .page-solution-title {
+    text-align: center;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .page-solution-card {
+    flex-direction: row;
+  }
+  .page-solution-title {
+    text-align: left;
+  }
+}
+
 .page-solution-image {
   width: 120px;
   object-fit: cover;
@@ -19,7 +41,6 @@
   color: blue;
   font-weight: bold;
   margin: 0;
-  text-align: left;
 }
 
 .page-solution-text {
