@@ -1,34 +1,35 @@
 
-.card-solution1 {
-  overflow: hidden;
-  height: 120px;
-  background: #88CBD4;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+.page-solution-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
+  margin: 20px auto;
 }
 
-.card-solution1 img {
-  height: 100%;
+.page-solution-image {
   width: 120px;
   object-fit: cover;
+  padding: 8px;
 }
 
-.card-solution1 h2 {
-  font-size: 16px;
+.page-solution-title {
+  font-size: 20px;
+  color: blue;
   font-weight: bold;
   margin: 0;
+  text-align: left;
 }
 
-.card-solution1 p {
-  font-size: 12px;
+.page-solution-text {
+  font-size: 16px;
   line-height: 1.4;
-  opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
 }
 
-.card-solution1 .card-solution1-infos {
+.page-solution-info {
   padding: 16px;
 }
 
